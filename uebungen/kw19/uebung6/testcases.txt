@@ -1,0 +1,9 @@
+--test tree variables (resetable by reloading :r)
+let t1 = Leaf
+let t2 = Branch Leaf Leaf
+let t3 = Branch (Branch Leaf Leaf) Leaf
+
+--running oddleaves on them
+oddleaves t1 --true
+oddleaves t2 --false
+oddleaves t3 --true
