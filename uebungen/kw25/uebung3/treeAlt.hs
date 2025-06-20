@@ -59,6 +59,3 @@ exampleTree = Branch (Branch (Leaf 3) (Leaf 7)) (Leaf 5)
 -- depth exampleTree            -- 2
 -- maxKey exampleTree           -- 7
 -- leftMost exampleTree         -- 3
-
-
-Hier ist deine Präsentationsdate
