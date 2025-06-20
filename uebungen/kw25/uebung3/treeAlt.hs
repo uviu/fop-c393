@@ -1,6 +1,3 @@
--- TreeFold.hs
--- Präsentation zu Rekursionsschema für binäre Bäume mit Leaf-Schlüssel
-
 -- Datentypdefinition
 
 module TreeFold where
@@ -52,7 +49,7 @@ leftMost = foldTree id (\l _ -> l)
 exampleTree :: Tree Int
 exampleTree = Branch (Branch (Leaf 3) (Leaf 7)) (Leaf 5)
 
--- Beispiel-Ausgaben (optional im GHCi testen)
+-- Beispiel-Ausgaben 
 -- countLeaves exampleTree      -- 3
 -- countBranches exampleTree    -- 2
 -- sumKeys exampleTree          -- 15
